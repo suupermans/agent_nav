@@ -11,6 +11,12 @@ if __name__ == "__main__":
         host=settings.host,
         port=settings.port,
         reload=True,
-        log_level=settings.log_level.lower()
+        
+        log_level=settings.log_level.lower(),
+        timeout_keep_alive=600,  # 10分钟keep-alive超时
+        timeout_graceful_shutdown=600  # 10分钟优雅关闭超时
     )
+
+
+
 

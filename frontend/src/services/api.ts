@@ -1,11 +1,12 @@
 import axios from 'axios'
 import type { TripFormData, TripPlanResponse } from '@/types'
 
+// @ts-ignore
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 120000, // 2分钟超时
+  timeout: 600000, // 10分钟超时，适应长时间处理
   headers: {
     'Content-Type': 'application/json'
   }

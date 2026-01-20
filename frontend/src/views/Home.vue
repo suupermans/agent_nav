@@ -253,32 +253,59 @@ const handleSubmit = async () => {
   loadingProgress.value = 0
   loadingStatus.value = '正在初始化...'
 
-  // 模拟进度更新 - 优化版：更慢的进度增长，确保与后端处理更匹配
+  // 持续的进度更新，确保用户知道系统仍在工作
   const progressInterval = setInterval(() => {
-    // 每1.5秒增加5%，15秒后达到90%
-    if (loadingProgress.value < 90) {
-      loadingProgress.value += 5
-
-      // 更新状态文本 - 更细粒度的阶段划分
-      if (loadingProgress.value <= 20) {
-        loadingStatus.value = '🔍 正在搜索景点...'
-      } else if (loadingProgress.value <= 40) {
-        loadingStatus.value = '🌤️ 正在查询天气...'
-      } else if (loadingProgress.value <= 60) {
-        loadingStatus.value = '🏨 正在推荐酒店...'
-      } else if (loadingProgress.value <= 80) {
-        loadingStatus.value = '📋 正在生成行程计划...'
-      } else {
-        loadingStatus.value = '⌛ 正在优化行程细节...'
-      }
+    // 动态调整进度增长速度，随着进度增加而减慢
+    let progressIncrement = 0
+    
+    if (loadingProgress.value < 50) {
+      // 前期进度增长较快
+      progressIncrement = 2
+    } else if (loadingProgress.value < 80) {
+      // 中期进度增长适中
+      progressIncrement = 1
+    } else if (loadingProgress.value < 95) {
+      // 后期进度增长缓慢，避免过早达到100%
+      progressIncrement = 0.5
     } else {
-      // 当进度达到90%时，停止定时器，避免不必要的性能消
-      耗
-      clearInterval(progressInterval)
+      // 接近完成时，进度非常缓慢地增长
+      progressIncrement = 0.2
     }
-  }, 1500)
+    
+    loadingProgress.value += progressIncrement
+    
+    // 确保进度不超过99.9%，保留0.1%用于最终完成
+    if (loadingProgress.value > 99.9) {
+      loadingProgress.value = 99.9
+    }
+
+    // 更新状态文本 - 更详细的阶段划分和动态提示
+    if (loadingProgress.value <= 10) {
+      loadingStatus.value = '🔍 正在搜索目的地信息...'
+    } else if (loadingProgress.value <= 25) {
+      loadingStatus.value = '📊 正在分析旅游数据...'
+    } else if (loadingProgress.value <= 40) {
+      loadingStatus.value = '🌤️ 正在查询天气情况...'
+    } else if (loadingProgress.value <= 55) {
+      loadingStatus.value = '🏨 正在推荐合适的住宿...'
+    } else if (loadingProgress.value <= 70) {
+      loadingStatus.value = '🚗 正在规划最佳交通路线...'
+    } else if (loadingProgress.value <= 85) {
+      loadingStatus.value = '📋 正在生成行程计划...'
+    } else if (loadingProgress.value <= 95) {
+      loadingStatus.value = '✨ 正在优化行程细节...'
+    } else {
+      loadingStatus.value = '🎉 行程即将生成完成...'
+    }
+  }, 1000)
 
   try {
+    // 验证必填字段
+    if (!formData.city || !formData.start_date || !formData.end_date) {
+      message.error('请填写完整的旅行信息')
+      return
+    }
+
     const requestData: TripFormData = {
       city: formData.city,
       start_date: formData.start_date.format('YYYY-MM-DD'),
@@ -617,17 +644,60 @@ const handleSubmit = async () => {
 /* 加载容器 */
 .loading-container {
   text-align: center;
-  padding: 24px;
+  padding: 32px;
   background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
   border-radius: 16px;
-  border: 2px dashed #667eea;
+  border: 2px solid #667eea;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+  transition: all 0.3s ease;
+}
+
+.loading-container:hover {
+  box-shadow: 0 12px 32px rgba(102, 126, 234, 0.25);
 }
 
 .loading-status {
-  margin-top: 16px;
+  margin-top: 20px;
   color: #667eea;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
+  animation: pulse 1.5s infinite;
+}
+
+/* 进度条动画 */
+:deep(.ant-progress-inner) {
+  border-radius: 20px;
+}
+
+:deep(.ant-progress-bg) {
+  transition: width 1s ease;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background-size: 200% 100%;
+  animation: gradientFlow 3s ease-in-out infinite;
+}
+
+/* 渐变流动动画 */
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 脉冲动画 */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
 }
 
 /* 动画 */
