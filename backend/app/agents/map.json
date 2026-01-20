@@ -1,0 +1,25 @@
+{'route': 
+{'origin': '116.482086,39.990496', 'destination': '116.301392,40.050897', 
+'paths': [{'distance': '20558', 'duration': '16446',
+ 'steps': [{'instruction': '向西南步行147米右转', 'road': [], 'distance': '147', 'orientation': '西南', 'duration': '118'}, {'instruction': '向西北步行47米左转', 'road': [], 'distance': '47', 'orientation': '西北', 'duration': '38'}, {'instruction': '向西南步行296米右转', 'road': [], 'distance': '296', 'orientation': '西南', 'duration': '237'}, {'instruction': '步行1358米左转', 'road': [], 'distance': '1358', 'orientation': [], 'duration': '1086'}, {'instruction': '步行1294米向左前方行走', 'road': [], 'distance': '1294', 'orientation': [], 'duration': '1035'}, {'instruction': '向西步行227米右转', 'road': [], 'distance': '227', 'orientation': '西', 'duration': '182'}, {'instruction': '向北步行36米左转', 'road': [], 'distance': '36', 'orientation': '北', 'duration': '29'}, {'instruction': '向西步行357米右转', 'road': [], 'distance': '357', 'orientation': '西', 'duration': '286'}, {'instruction': '向西步行3398米向右前方行走', 'road': [], 'distance': '3398', 'orientation': '西', 'duration': '2718'}, {'instruction': '向西步行241米向右前方行走', 'road': [], 'distance': '241', 'orientation': '西', 'duration': '193'}, {'instruction': '沿慧忠路 辅路向西步行349米向右前方行走', 'road': '慧忠路辅路', 'distance': '349', 'orientation': '西', 'duration': '279'}, {'instruction': '向西步行147米右转', 'road': [], 'distance': '147', 'orientation': '西', 'duration': '118'}, {'instruction': '向北步行385米左转', 'road': [], 'distance': '385', 'orientation': '北', 'duration': '308'}, {'instruction': '步行1996米右转', 'road': [], 'distance': '1996', 'orientation': [], 'duration': '1597'}, {'instruction': '步行620米向右前方行走', 'road': [], 'distance': '620', 'orientation': [], 'duration': '496'}, {'instruction': '沿G6辅路步行4948米左转', 'road': 'G6辅路', 'distance': '4948', 'orientation': [], 'duration': '3958'}, {'instruction': '步行1642米向左前方行走', 'road': [], 'distance': '1642', 'orientation': [], 'duration': '1314'}, {'instruction': '沿小营西路辅路向西步行760米右转', 'road': '小营西路辅路', 'distance': '760', 'orientation': '西', 'duration': '608'}, {'instruction': '沿上地东路 步行119米向左前方行走', 'road': '上地东路', 'distance': '119', 'orientation': [], 'duration': '95'}, {'instruction': '沿上地东路向西北步行1316米向右前方行走', 'road': '上地东路', 'distance': '1316', 'orientation': '西北', 'duration': '1053'
+                    },
+                    {'instruction': '向北步行177米右转', 'road': [], 'distance': '177', 'orientation': '北', 'duration': '142'
+                    },
+                    {'instruction': '向东北步行76米向左前方行走', 'road': [], 'distance': '76', 'orientation': '东北', 'duration': '61'
+                    },
+                    {'instruction': '向西北步行60米右转', 'road': [], 'distance': '60', 'orientation': '西北', 'duration': '48'
+                    },
+                    {'instruction': '沿西 二旗大街向西步行421米右转', 'road': '西二旗大街', 'distance': '421', 'orientation': ' 西', 'duration': '337'
+                    },
+                    {'instruction': '向北步行141米到达目的地', 'road': [], 'distance': '141', 'orientation': '北', 'duration': '113'
+                    }
+                ]
+            }
+        ]
+    }, 'addresses': {'origin': {'address': '北京市朝阳区阜通东大街6号', 'coordinates': '116.482086,
+            39.990496'
+        }, 'destination': {'address': '北京市海淀区上地十街10号', 'coordinates': '116.301392,
+            40.050897'
+        }
+    }
+}

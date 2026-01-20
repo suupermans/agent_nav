@@ -1,0 +1,184 @@
+{
+  "city": "北京",
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-03",
+  "days": [
+    {
+      "date": "2025-06-01",
+      "day_index": 0,
+      "description": "第一天：历史文化探索之旅",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "布丁酒店(花乡东桥地铁站新天坛医院店)",
+        "address": "巴庄子124号",
+        "location": {"longitude": 116.1899, "latitude": 39.8567},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离故宫2公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "故宫博物院",
+          "address": "景山前街4号",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 180,
+          "description": "中国古代皇宫，保存了大量文物和建筑。",
+          "category": "博物馆",
+          "ticket_price": 60
+        },
+        {
+          "name": "中国电影博物馆",
+          "address": "东城区朝内大街甲126号",
+          "location": {"longitude": 116.4093, "latitude": 39.9186},
+          "visit_duration": 90,
+          "description": "专注于电影历史和文化的博物馆。",
+          "category": "博物馆",
+          "ticket_price": 40
+        },
+        {
+          "name": "八达岭长城",
+          "address": "G6京藏高速58号出口",
+          "location": {"longitude": 117.4219, "latitude": 40.4379},
+          "visit_duration": 120,
+          "description": "长城的重要部分，具有壮丽的自然景观和历史意义。",
+          "category": "古迹",
+          "ticket_price": 40
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "老北京包子铺", "description": "传统老北京包子，价格实惠，味道正宗。", "estimated_cost": 30},
+        {"type": "lunch", "name": "八达岭农家菜", "description": "品尝当地特色农家菜，环境舒适。", "estimated_cost": 50},
+        {"type": "dinner", "name": "簋街小吃", "description": "体验老北京特色小吃，选择多种多样。", "estimated_cost": 80}
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "day_index": 1,
+      "description": "第二天：博物馆深度游",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "格林豪泰酒店(北京天通苑东地铁站店)",
+        "address": "天通苑东三区商业2号楼13门",
+        "location": {"longitude": 116.3355, "latitude": 39.9867},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离中国国家博物馆2公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "中国国家博物馆",
+          "address": "东长安街16号天安门广场东侧",
+          "location": {"longitude": 116.4074, "latitude": 39.9139},
+          "visit_duration": 150,
+          "description": "综合性博物馆，涵盖丰富的历史和文化展品。",
+          "category": "博物馆",
+          "ticket_price": 0
+        },
+        {
+          "name": "首都博物馆",
+          "address": "复兴门外大街16号",
+          "location": {"longitude": 116.3918, "latitude": 39.9165},
+          "visit_duration": 120,
+          "description": "展示北京历史文化的综合性博物馆。",
+          "category": "博物馆",
+          "ticket_price": 40
+        },
+        {
+          "name": "北京古观象台",
+          "address": "建国门大街裱褙胡同2号",
+          "location": {"longitude": 116.4017, "latitude": 39.9178},
+          "visit_duration": 60,
+          "description": "中国古代天文观测的重要地点。",
+          "category": "博物馆",
+          "ticket_price": 30
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "天安门早点铺", "description": "提供传统老北京煎饼和豆浆等早餐。", "estimated_cost": 30},
+        {"type": "lunch", "name": "博物馆附近餐厅", "description": "午餐可以选择博物馆附近的餐厅，品尝北京特色菜。", "estimated_cost": 50},
+        {"type": "dinner", "name": "天通苑美食街", "description": "晚餐可以选择天通苑附近的美食街，体验当地小吃。", "estimated_cost": 80}
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "day_index": 2,
+      "description": "第三天：胡同文化与美食体验",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "速8酒店(北京梨园地铁站店)",
+        "address": "梨园镇北杨洼小区31号楼",
+        "location": {"longitude": 116.1695, "latitude": 39.9030},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离史家胡同博物馆2公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "史家胡同博物馆",
+          "address": "朝阳门街道东四南大街史家胡同24号",
+          "location": {"longitude": 116.4093, "latitude": 39.9186},
+          "visit_duration": 90,
+          "description": "展示老北京胡同文化的博物馆。",
+          "category": "博物馆",
+          "ticket_price": 20
+        },
+        {
+          "name": "大钟寺古钟博物馆",
+          "address": "北三环西路甲31号",
+          "location": {"longitude": 116.3355, "latitude": 39.9867},
+          "visit_duration": 90,
+          "description": "以古钟为主题的博物馆，展示中国钟表文化。",
+          "category": "博物馆",
+          "ticket_price": 30
+        },
+        {
+          "name": "正阳门箭楼",
+          "address": "前门大街2号前门商业区A2地块",
+          "location": {"longitude": 116.4074, "latitude": 39.9139},
+          "visit_duration": 60,
+          "description": "北京古都的重要历史遗迹。",
+          "category": "古迹",
+          "ticket_price": 20
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "梨园早点铺", "description": "提供传统老北京早点，如油条、豆浆等。", "estimated_cost": 30},
+        {"type": "lunch", "name": "胡同里的老北京餐馆", "description": "午餐可以选择胡同里的老北京餐馆，品尝传统美食。", "estimated_cost": 50},
+        {"type": "dinner", "name": "梨园万达广场美食街", "description": "晚餐可以选择梨园万达广场的美食街，体验多样化的美食。", "estimated_cost": 80}
+      ]
+    }
+  ],
+  "weather_info": [
+    {
+      "date": "2025-06-01",
+      "day_weather": "多云",
+      "night_weather": "多云",
+      "day_temp": 3,
+      "night_temp": -7,
+      "wind_direction": "东北",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2025-06-02",
+      "day_weather": "多云",
+      "night_weather": "多云",
+      "day_temp": -1,
+      "night_temp": -6,
+      "wind_direction": "东南",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2025-06-03",
+      "total": 240 + 1200 + 480 + 600 = 2520
+  }
+}
+

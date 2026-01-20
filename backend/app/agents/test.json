@@ -1,0 +1,170 @@
+{
+  "city": "北京",
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-03",
+  "days": [
+    {
+      "date": "2025-06-01",
+      "day_index": 0,
+      "description": "第一天行程：游览故宫博物院和中国国家博物馆，感受历史文化底蕴。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "布丁酒店(花乡东桥地铁站新天坛医院店)",
+        "address": "巴庄子124号",
+        "location": {"longitude": 116.397128, "latitude": 39.916527},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离景点2公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "故宫博物院",
+          "address": "景山前街4号",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 120,
+          "description": "故宫博物院是中国最大的古代文化艺术博物馆，展示了丰富的历史文物和建筑艺术。",
+          "category": "历史文化景点",
+          "ticket_price": 60
+        },
+        {
+          "name": "中国国家博物馆",
+          "address": "东长安街16号天安门广场东侧",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 90,
+          "description": "中国国家博物馆是世界上最大的博物馆之一，展示了中国悠久的历史和文化。",
+          "category": "博物馆",
+          "ticket_price": 50
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "老北京包子铺", "description": "传统老北京包子，口味地道。", "estimated_cost": 30},
+        {"type": "lunch", "name": "胡同餐馆", "description": "老北京风味的胡同餐馆，推荐炸酱面和烤鸭。", "estimated_cost": 50},
+        {"type": "dinner", "name": "簋街小吃", "description": "尝试老北京的各种小吃，如豆汁儿、炸糕等。", "estimated_cost": 80}
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "day_index": 1,
+      "description": "第二天行程：参观中国电影博物馆和首都博物馆，感受光影艺术与历史变迁。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "格林豪泰酒店(北京天通苑东地铁站店)",
+        "address": "天通苑东三区商业2号楼13门",
+        "location": {"longitude": 116.397128, "latitude": 39.916527},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离景点2公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "中国电影博物馆",
+          "address": "中国电影博物馆内办公区",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 120,
+          "description": "中国电影博物馆展示了中国电影的发展历程和经典作品。",
+          "category": "博物馆",
+          "ticket_price": 40
+        },
+        {
+          "name": "首都博物馆",
+          "address": "复兴门外大街16号",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 90,
+          "description": "首都博物馆展示了北京地区的历史文化遗产。",
+          "category": "博物馆",
+          "ticket_price": 30
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "天通苑早点铺", "description": "老北京风味的早点，推荐豆汁儿和焦圈。", "estimated_cost": 30},
+        {"type": "lunch", "name": "博物馆餐厅", "description": "博物馆内的餐厅，提供健康美味的午餐选择。", "estimated_cost": 50},
+        {"type": "dinner", "name": "大望路餐馆", "description": "尝试老北京的涮羊肉和各种风味小吃。", "estimated_cost": 80}
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "day_index": 2,
+      "description": "第三天行程：探索北京古代建筑博物馆和北京艺术博物馆，感受古建筑与艺术之美。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "尚客优酒店(北京新国展机场店)",
+        "address": "后沙峪镇双裕东路丁1号楼天洋国际大厦1层",
+        "location": {"longitude": 116.397128, "latitude": 39.916527},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离景点2公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "北京古代建筑博物馆",
+          "address": "东经路21号",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 120,
+          "description": "北京古代建筑博物馆展示了中国古代建筑的精髓和工艺。",
+          "category": "博物馆",
+          "ticket_price": 40
+        },
+        {
+          "name": "北京艺术博物馆",
+          "address": "万寿寺121号",
+          "location": {"longitude": 116.397128, "latitude":0 39.916527},
+          "visit_duration": 90,
+          "description": "北京艺术博物馆展示了中国丰富的艺术收藏和传统工艺。",
+          "category": "博物馆",
+          "ticket_price": 30
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "后沙峪早点铺", "description": "老北京风味的早点，推荐豆汁儿和焦圈。", "estimated_cost": 30},
+        {"type": "lunch", "name": "博物馆餐厅", "description": "博物馆内的餐厅，提供健康美味的午餐选择。", "estimated_cost": 50},
+        {"type": "dinner", "name": "国展附近餐馆", "description": "尝试老北京的涮羊肉和各种风味小吃。", "estimated_cost": 80}
+      ]
+    }
+  ],
+  "weather_info": [
+    {
+      "date": "2025-06-01",
+      "day_weather": "多云",
+      "night_weather": "-7°C",
+      "day_temp": 3,
+      "night_temp": -7,
+      "wind_direction": "东北风",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2025-06-02",
+      "day_weather": "小雪",
+      "night_weather": "-6°C",
+      "day_temp": -1,
+      "night_temp": -6,
+      "wind_direction": "东南风",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2025-06-03",
+      "day_weather": "多云",
+      "night_weather": "-10°C",
+      "day_temp": -2,
+      "night_temp": -10,
+      "wind_direction": "东北风",
+      "wind_power": "1-3级"
+    }
+  ],
+  "overall_suggestions": "建议穿着保暖衣物，尤其是考虑到天气寒冷。尽量使用公共交通工具以节省时间和费用。合理安排每天的行程时间，避免过度劳累。尝试当地特色美食，如老北京炸酱面、烤鸭和各种胡同小吃。",
+  "budget": {
+    "total_attractions": 180,
+    "total_hotels": 1200,
+    "total_meals": 480,
+    "total_transportation": 200,
+    "total": 2060
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "city": "北京",
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-03",
+  "days": [
+    {
+      "date": "2025-06-01",
+      "day_index": 0,
+      "description": "第一天主要游览故宫和中国国家博物馆，感受丰富的历史文化。午餐推荐老北京风味的烤鸭，晚餐则品尝当地特色小吃。",
+      "transportation": "地铁、公交",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "如家快捷酒店（北京景山店）",
+        "address": "北京市东城区景山前街5号",
+        "location": {"longitude": 116.406383, "latitude": 39.921398},
+        "price_range": "300-500元",
+        "rating": "4.5",
+        "distance": "距离景点1公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "故宫博物院",
+          "address": "北京市东城区景山前街4号",
+          "location": {"longitude": 116.397128, "latitude": 39.916527},
+          "visit_duration": 180,
+          "description": "明清两代的皇宫，拥有丰富的历史文化和珍贵的文物。",
+          "category": "博物馆",
+          "ticket_price": 60
+        },
+        {
+          "name": "中国国家博物馆",
+          "address": "北京市东城区东长安街16号",
+          "location": {"longitude": 116.405, "latitude": 39.915},
+          "visit_duration": 150,
+          "description": "中国最大的综合性博物馆之一，收藏了大量历史文物和艺术品。",
+          "category": "博物馆",
+          "ticket_price": 10
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "老北京包子铺", "description": "传统老北京包子，品种丰富，价格实惠。", "estimated_cost": 30},
+        {"type": "lunch", "name": "全聚德烤鸭店", "description": "老字号烤鸭店，体验正宗的北京烤鸭。", "estimated_cost": 50},
+        {"type": "dinner", "name": "簋街小吃", "description": "著名小吃街，汇聚各地美食，尤其是北京特色小吃。", "estimated_cost": 80}
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "day_index": 1,
+      "description": "第二天前往八达岭长城，感受壮丽的自然风光和悠久的历史。午餐推荐长城脚下的农家菜，晚餐则回到市区品尝京味儿餐馆。",
+      "transportation": "公交、景区巴士",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店（北京八达岭店）",
+        "address": "北京市延庆区八达岭长城景区入口处",
+        "location": {"longitude": 117.347, "latitude": 40.424},
+        "price_range": "300-500元",
+        "rating": "4.3",
+        "distance": "距离景点0.5公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "八达岭长城",
+          "address": "北京市延庆区八达岭长城景区",
+          "location": {"longitude": 117.347, "latitude": 40.424},
+          "visit_duration": 240,
+          "description": "长城的著名关隘之一，历史悠久，风景壮丽。",
+          "category": "历史遗迹",
+          "ticket_price": 40
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "延庆老面馆", "description": "当地特色早餐，老面馒头和豆腐脑。", "estimated_cost": 30},
+        {"type": "lunch", "name": "长城脚下的农家菜", "description": "地道的延庆农家菜，新鲜蔬菜和特色炖菜。", "estimated_cost": 50},
+        {"type": "dinner", "name": "大董烤鸭店（亚运村店）", "description": "高端京味儿餐馆，提供精致烤鸭和其他传统菜肴。", "estimated_cost": 80}
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "day_index": 2,
+      "description": "第三天主要参观北京艺术博物馆和北京古代建筑博物馆，深入了解中国艺术和建筑文化。午餐推荐在博物馆附近的素食餐厅，晚餐则体验胡同里的老北京餐馆。",
+      "transportation": "地铁、公交",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "如家商旅酒店（北京西城店）",
+        "address": "北京市西城区万寿寺街121号",
+        "location": {"longitude": 116.38, "latitude": 39.93},
+        "price_range": "300-500元",
+        "rating": "4.4",
+        "distance": "距离景点1公里",
+        "type": "经济型酒店",
+        "estimated_cost": 400
+      },
+      "attractions": [
+        {
+          "name": "北京艺术博物馆",
+          "address": "北京市西城区万寿寺121号",
+          "location": {"longitude": 116.38, "latitude": 39.93},
+          "visit_duration": 120,
+          "description": "展示中国古代和现代的艺术作品，具有深厚的文化底蕴。",
+          "category": "博物馆",
+          "ticket_price": 40
+        },
+        {
+          "name": "北京古代建筑博物馆",
+          "address": "北京市西城区东经路21号",
+          "location": {"longitude": 116.37, "latitude": 39.92},
+          "visit_duration": 120,
+          "description": "专注于中国古代建筑的保护和研究，展示了中国建筑的历史和文化。",
+          "category": "博物馆",
+          "ticket_price": 30
+        }
+      ],
+      "meals": [
+        {"type": "breakfast", "name": "豆汁儿油条铺", "description": "传统老北京早餐，豆汁儿配油条，别有一番风味。", "estimated_cost": 30},
+        {"type": "lunch", "name": "素食面馆", "description": "博物馆附近的素食餐厅，提供健康的素食选择。", "estimated_cost": 50},
+        {"type": "dinner", "name": "老北京胡同餐馆", "description": "体验胡同里的老北京餐馆，品尝传统京味儿菜肴。", "estimated_cost": 80}
+      ]
+    }
+  ],
+  "weather_info": [
+    {
+      "date": "2025-06-01",
+      "day_weather": "多云",
+      "night_weather": "多云",
+      "day_temp": 3,
+      "night_temp": -7,
+      "wind_direction": "东北",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2025-06-02",
+      "day_weather": "多云",
+      "night_weather": "小雪",
+      "day_temp": -1,
+      "night_temp": -6,
+      "wind_direction": "东南",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2025-06-03",
+      "day_weather": "小雪",
+      "night_weather": "多云",
+      "day_temp": -2,
+      "night_temp": -10,
+      "wind_direction": "东北",
+      "wind_power": "1-3级"
+    }
+  ],
+  "overall_suggestions": "由于天气较冷，建议携带保暖衣物和雨具。故宫和国家博物馆人流量较大，建议提前预约或错峰游览。八达岭长城距离市区较远，可选择公共交通或跟团前往。",
+  "budget": {
+    "total_attractions": 60 + 10 + 40 + 30 = 140,
+    "total_hotels": 400 * 3 = 1200,
+    "total_meals": (30 + 50 + 80) * 3 = 480,
+    "total_transportation": 200,
+    "total": 140 + 1200 + 480 + 200 = 2020
+  }
+}
